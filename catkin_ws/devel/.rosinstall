@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/udacity-robond-project7/catkin_ws/devel/setup.sh
