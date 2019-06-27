@@ -1,4 +1,4 @@
-# udacity-robond-p7
+# udacity-robond-project7
 Udacity Robotics Nanodegree Program - Project 7: Home Service Robot
 
 This is my submission for Project 7: Home Service Robot for the Udacity Robotics Software Engineer Nanodegree Program.
