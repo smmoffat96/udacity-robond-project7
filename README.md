@@ -1,10 +1,8 @@
 # udacity-robond-project7
-Udacity Robotics Nanodegree Program - Project 7: Home Service Robot
-
-This is my submission for Project 7: Home Service Robot for the Udacity Robotics Software Engineer Nanodegree Program.
+###### This is my submission for the Udacity Robotics Software Engineer Nanodegree Program - Project 7: Home Service Robot
 
 
-This project completes the following tasks:
+**This project completes the following tasks:**
 
 - Display a marker at the pickup zone
 
@@ -15,7 +13,7 @@ This project completes the following tasks:
 - Show the marker at the drop off zone once the robot reaches it
 
 
-The following packages were used to achieve localization, mapping, and navigation: 
+**The following packages were used to achieve localization, mapping, and navigation:**
 
 - gmapping (used amcl_demo.launch for SLAM)
 
@@ -28,3 +26,24 @@ The following packages were used to achieve localization, mapping, and navigatio
 - pick_objects (used to send goal poses to robot)
 
 - add_markers (used for marker visualization)
+
+- scripts (used to store shell scripts for testing individual nodes and running the entire home service process)
+
+- rvizConfig (used to store rviz configuration)
+
+
+**To run the home service task:**
+
+- cd to catkin_ws/src/scripts
+
+- run ./home_service.sh, which should launch:
+
+  - the gazebo world file
+  
+  - the amcl_demo for SLAM
+  
+  - the rviz configuration
+  
+  - the pick_objects node
+  
+  - the add_markers node
